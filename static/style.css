@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #423a37, #3c312e);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background: #a2a6a9ae;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    width: 450px;
+  }
+  
+  /* Header */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Drawing Area */
+  .drawing-area {
+    margin: 20px 0;
+    border: 2px dashed #bdc3c7;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #34495e;
+  }
+  
+  /* Canvas */
+  canvas {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Buttons */
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Result */
+  .output {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000000;
+  }
+  
